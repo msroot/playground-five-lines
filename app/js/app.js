@@ -10,10 +10,10 @@ $(function() {
 	var maxStrokeWidth = Math.ceil(_.min([screenWidth, screenHeight]) / 100);
 
 	var transitionDuration = function() {
-		return Math.round(Math.random()*(2000-500))+500
+		return _.random(500, 2000) 
 	}
 	var updateInterval = function() {
-		return Math.round(Math.random()*(5000-100))+100
+		return _.random(100, 5000) 
 	}
 	var randomizeHue = function() {
 		return 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
