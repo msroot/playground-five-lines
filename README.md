@@ -4,4 +4,4 @@
 
 Five lines placed randomly on a canvas.
 
-Just seat a watch.
+Just relax and enjoy the show.
